@@ -3,11 +3,22 @@
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.ttf"
 //= depend_on_asset "bootstrap/glyphicons-halflings-regular.woff"
 
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
-$body-bg: #ecf0f1;
-$navbar-inverse-bg: #1D7AC2;
-$navbar-inverse-link-color: white;
-$brand-primary: #3498db;
-$jumbotron-bg:  #bdc3c7;
+$body-bg:                               #ecf0f1;
+$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height:                          45px;
+$navbar-default-bg:                      white;
+$navbar-default-brand-color:             #1d7ac2;
+$brand-primary:                          #1d7ac2;
+$jumbotron-bg:                           white;
 
-@import "bootstrap";
+@import 'bootstrap';
+
+.center {
+     text-align: center;
+}
+
+.navbar-brand {
+     font-weight: bold;
+}
